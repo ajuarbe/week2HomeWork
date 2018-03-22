@@ -1,0 +1,160 @@
+body {
+    background-color: #FFFFFF;
+    width: 95%;
+    margin: auto;
+}
+.nav {
+    background-color: #FFFFFF;
+    border-bottom: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.logo {
+    float: left;    
+}
+#logInButton {
+    float:right;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 1em;
+    margin-top: 20px;
+    margin-right:20px;   
+}
+hr {
+    clear: both;
+}
+.landingPage {
+    display:flex;
+    justify-content: space-between;
+    padding: 1%;
+    font-size: 32px;
+}
+.landingPage img {
+    width:500px;
+    height:400px;
+}
+.landingPage p {
+    width: 45%;
+    margin: auto 0;
+}
+.landingPage ul {
+    list-style-type: none;
+}
+#signUp {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 1em;
+}
+
+/* Profile Page */
+/*
+.profileHeader ul li{
+    display: inline-block;
+    text-align: right;
+    margin-top: 35px;
+    margin-left: 100px;
+    list-style-type: none;
+}
+*/
+.profileHeader a {
+    text-decoration: none;
+    color: rgb(123, 23, 23);
+}
+.profileHeader a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.profileInfo table{
+    width: 35%;
+    margin-left: 35%;
+
+}
+.profileInfo img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.profileInfo p {
+    width: 45%;
+    margin: auto 0;
+    text-align: center;
+}
+.profileInfo figure{
+    text-align: center;
+}
+.profileInfo figcaption {
+    font-weight: bolder;
+    font-family: fantasy;
+}
+/* User Gallery Section */
+.galleryHeader ul li{
+    display: inline-block;
+    text-align: right;
+    margin-top: 35px;
+    margin-left: 100px;
+    list-style-type: none;
+}
+.galleryHeader a {
+    text-decoration: none;
+    color: rgb(123, 23, 23);
+}
+.galleryHeader a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.yourGallery img{
+    width:250px;
+    height:150px;
+    margin-left: 50%;
+    padding: 10px;
+}
+.nextPage p {
+    text-align: right;
+    margin-right: 22%
+}
+.td-right {
+    margin-left: 20px;
+}
+table {
+    width: 75%;
+}
+
+#logOutButton {
+    float: right;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 1em;
+    vertical-align: middle;
+ }
+ .uploadPage {
+    display:flex;
+    justify-content: space-between;
+    padding: 1%;
+    font-size: 32px;
+}
+.uploadPage img {
+    width:250px;
+    height:250px;
+}
+.uploadPage p {
+    width: 30%;
+    margin: auto 0;
+}
+.uploadPage ul {
+    list-style-type: none;
+}
+ .uploadForm label{
+     font-size: 18px;
+ }
+
+ 
+
+ 
+
+
+
+
