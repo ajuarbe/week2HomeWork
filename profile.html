@@ -1,74 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Switch</title>
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="styles/main.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="nav">
-        
-            <div class="logo">
-                <img src="img/brand2.png" alt="Switch Logo" title="Switch Logo">
-            </div>
-            <table>
-                <tr>
-                    <td class="left-td">
-            <div class="galleryHeader"> 
-               <ul>
-                   <li><a href="profile.html">Profile</a></li>
-                   <li><a href="matches.html">Matches</a></li>
-                   <li><a href="gallery.html">Gallery</a></li>
-                   <li><a href="upload.html">Upload</a></li>
-               </ul>
-            </div>
-            </td>
-            <td class="right-td">
-            <div>
-                    <a href="index.html">
-                    <button id="logOutButton">
-                        Log Out
-                    </button>
-                    </a>
-            </div>
-        </td>   
-            </table>
-    </div>
-        <hr />
-        <div class="profileInfo">
-                <p>
-                    <figure>
-                    <img src="img/ninjaprofile.jpeg" alt="profile picture">
-                    <figcaption>Profile Pic</figcaption>
-                    </figure>
-                </p>
-                <table>
-                    <tr>
-                        <td><strong>User Name:</strong></td>
-                        <td>codeninja</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Email Address:</strong></td>
-                        <td>angel@codeninja.com</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Phone Number:</strong></td>
-                        <td>1 + (555)555-5555</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Zip Code</strong></td>
-                        <td>02215</td>
-                    </tr>
-  
-                    <tr>
-                        <td><strong>Barter and Sell:</strong></td>
-                        <td>Yes</td>
-                    </tr>
-                </table>
-            </div>
-      
+	<div class="container">
+		<div class="navbar navbar-dark fixed-top nav-tabs" style="background-color: #ffffff;">
+				<img src="img/brand2.png" width="180" height="80" alt="">
+				<!-- <a href="profile.html">Profile</a>
+				<a href="matches.html">Matches</a>
+				<a href="gallery.html">Gallery</a>
+				<a href="upload.html">Upload</a> -->
+				<div class="btn btn-primary"><a href="index.html">Log In</a>
+				</div>
+		</div>
+	</div>
+	<div class="container">
+		<section>
+			<div class="row">
+				<div class="col-sm left-column">
+					<img src="img/barter.jpg" alt="">
+				</div>
+				<div class="col-sm right-column">
+					<h3>Welcome!</h3>
+					Switch is the Tinder of bartering. With Switch you can upload pics of stuff you're essentially willing to trade for something else.
+					<h6>Getting started is easy!</h6>
+					<ol class="landingPageOL">
+						<li>Upload pics of things you want to barter with.</li>
+						<li>Browse through other Switch users pics.  When you see something you like click the checkmark otherwise click the X.</li>
+					</ol>
+					<div class="btn btn-primary sign-up-btn"><a href="#">Sign Up</a></div>
+				</div>
+				<div class="row bottom-row">			
+					<p>
+							The history of bartering dates all the way back to 6000 BC. Introduced by Mesopotamia tribes, bartering was adopted by Phoenicians. Phoenicians bartered goods to those located in various other cities across oceans. ~ <a href="https://www.mint.com/barter-system-history-the-past-and-present" target="_blank">Source</a>
+					</p>
+				</div>
+			</div>
+		</section>
+	</div>
+		<footer class="well">
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">FAQ</a></li>
+			</ul>
+		</footer>
+
+		
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
