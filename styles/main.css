@@ -4,7 +4,9 @@ body {
 }
 .container {
     background-color: whitesmoke;
-    margin: 10% auto;
+    margin: auto;
+    margin-top: 8.5%;
+    margin-bottom: 1%;
 }
 .navbar {
     color: #ffffff;
@@ -42,13 +44,24 @@ footer {
     text-align: center;
 }
 footer li {
-    padding: 2%;
+    padding: 1%;
     list-style-type: none;
     display: inline;
 }
 footer li a {
     color: darkolivegreen;
 }
-
-
+/* gallery page / matches page*/
+.yourGallery table {
+    margin: 0 auto;
+}
+.yourGallery h1 {
+    margin-left:2em;
+}
+.yourGallery img{
+    width: 300px;   
+}
+.uploadPage img {
+    width:250px;
+}
 

@@ -5,56 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Switch</title>
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <div class="nav">
-        
-            <div class="logo">
-                <img src="img/brand2.png" alt="Switch Logo" title="Switch Logo">
-            </div>
-            <table>
-                <tr>
-                    <td class="left-td">
-            <div class="galleryHeader"> 
-               <ul>
-                   <li><a href="profile.html">Profile</a></li>
-                   <li><a href="matches.html">Matches</a></li>
-                   <li><a href="gallery.html">Gallery</a></li>
-                   <li><a href="upload.html">Upload</a></li>
-               </ul>
-            </div>
-            </td>
-            <td class="right-td">
-            <div>
-                    <a href="index.html">
-                    <button id="logOutButton">
-                        Log Out
-                    </button>
-                    </a>
-            </div>
-        </td>   
-            </table>
+    <div class="container">
+            <div class="navbar navbar-dark fixed-top nav-tabs" style="background-color: #ffffff;">
+                <img src="img/brand2.png" width="180" height="80" alt="">
+                <a href="profile.html">Profile</a>
+                <a href="matches.html">Matches</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="upload.html">Upload</a>
+            <div class="btn btn-primary"><a href="index.html">Log Out</a>
+                </div>          
     </div>
-    <hr />
-    <div class="uploadPage">
-        <p>
-            <img src="img/landingPagePlaceHolder.png" alt="batering image">
-        </p>
-        <p>
-            <form class="uploadForm">
-                <label>Image Description:</label><br />
-                <textarea name="message" rows="10" cols="40">
-                </textarea>
-                <br />
-                <label>Seach Keywords:</label>
-                <br />
-                <input type="text">
-                <input type="file" name="fileToUpload" id="fileToUpload">
-                <input type="submit" value="Upload Image" name="submit">
-            </form>
-        </p>
+    </div>
+    <div class="container">
+        <div class="uploadPage">
+            <p>
+                <img src="img/business-cellphone-close-up-248512.jpg" alt="batering image">
+            </p>
+            <p>
+                <form class="uploadForm">
+                    <label>Image Description:</label><br />
+                    <textarea name="message" rows="6" cols="40">
+                    </textarea>
+                    <br />
+                    <label>Seach Keywords:</label>
+                    <br />
+                    <input type="text">
+                    <input type="file" name="fileToUpload" id="fileToUpload">
+                    <input type="submit" value="Upload Image" name="submit">
+                </form>
+            </p>
+        </div>
     </div>
     <footer>
         <p>
